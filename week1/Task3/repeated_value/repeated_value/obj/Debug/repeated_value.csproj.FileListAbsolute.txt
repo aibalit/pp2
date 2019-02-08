@@ -1,0 +1,7 @@
+C:\Users\aibar\Desktop\c#\Lab1 pp2\repeated value\repeated_value\repeated_value\bin\Debug\repeated_value.exe.config
+C:\Users\aibar\Desktop\c#\Lab1 pp2\repeated value\repeated_value\repeated_value\bin\Debug\repeated_value.exe
+C:\Users\aibar\Desktop\c#\Lab1 pp2\repeated value\repeated_value\repeated_value\bin\Debug\repeated_value.pdb
+C:\Users\aibar\Desktop\c#\Lab1 pp2\repeated value\repeated_value\repeated_value\obj\Debug\repeated_value.csprojAssemblyReference.cache
+C:\Users\aibar\Desktop\c#\Lab1 pp2\repeated value\repeated_value\repeated_value\obj\Debug\repeated_value.csproj.CoreCompileInputs.cache
+C:\Users\aibar\Desktop\c#\Lab1 pp2\repeated value\repeated_value\repeated_value\obj\Debug\repeated_value.exe
+C:\Users\aibar\Desktop\c#\Lab1 pp2\repeated value\repeated_value\repeated_value\obj\Debug\repeated_value.pdb

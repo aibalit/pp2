@@ -1,0 +1,7 @@
+C:\Users\aibar\Desktop\c#\Lab1 pp2\Prime Numbers\Prime_numbers\Prime_numbers\bin\Debug\Prime_numbers.exe.config
+C:\Users\aibar\Desktop\c#\Lab1 pp2\Prime Numbers\Prime_numbers\Prime_numbers\bin\Debug\Prime_numbers.exe
+C:\Users\aibar\Desktop\c#\Lab1 pp2\Prime Numbers\Prime_numbers\Prime_numbers\bin\Debug\Prime_numbers.pdb
+C:\Users\aibar\Desktop\c#\Lab1 pp2\Prime Numbers\Prime_numbers\Prime_numbers\obj\Debug\Prime_numbers.csprojAssemblyReference.cache
+C:\Users\aibar\Desktop\c#\Lab1 pp2\Prime Numbers\Prime_numbers\Prime_numbers\obj\Debug\Prime_numbers.csproj.CoreCompileInputs.cache
+C:\Users\aibar\Desktop\c#\Lab1 pp2\Prime Numbers\Prime_numbers\Prime_numbers\obj\Debug\Prime_numbers.exe
+C:\Users\aibar\Desktop\c#\Lab1 pp2\Prime Numbers\Prime_numbers\Prime_numbers\obj\Debug\Prime_numbers.pdb
