@@ -1,7 +1,0 @@
-C:\Users\aibar\Desktop\c#\Lab1 pp2\2d Triangle\bin\Debug\2d Triangle.exe.config
-C:\Users\aibar\Desktop\c#\Lab1 pp2\2d Triangle\bin\Debug\2d Triangle.exe
-C:\Users\aibar\Desktop\c#\Lab1 pp2\2d Triangle\bin\Debug\2d Triangle.pdb
-C:\Users\aibar\Desktop\c#\Lab1 pp2\2d Triangle\obj\Debug\2d Triangle.csprojAssemblyReference.cache
-C:\Users\aibar\Desktop\c#\Lab1 pp2\2d Triangle\obj\Debug\2d Triangle.csproj.CoreCompileInputs.cache
-C:\Users\aibar\Desktop\c#\Lab1 pp2\2d Triangle\obj\Debug\2d Triangle.exe
-C:\Users\aibar\Desktop\c#\Lab1 pp2\2d Triangle\obj\Debug\2d Triangle.pdb
