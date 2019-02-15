@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Example6
+namespace Table
 {
 	class Student
 	{
-		public string name;
+		public string name;// three stings
 		public string id;
 		public string year;
 
-		public void PrintInfo()
+		public void PrintInfo() // method
 		{
-			Console.WriteLine(name + " " + id + " " + year);
+			Console.WriteLine(name + " " + id + " " + year);// order of output
 		}
 	}
 

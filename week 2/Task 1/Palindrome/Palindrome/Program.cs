@@ -15,13 +15,13 @@ namespace palindromecheck
 
 			string s2;
 
-			string s = File.ReadAllText(@"C:\Users\aibar\Desktop\c#\Lab 2 pp2\Palindrome\Palindrome\text1.txt");
-			char[] ch = s.ToCharArray();
+			string s = File.ReadAllText(@"C:\Users\aibar\Desktop\c#\Lab 2 pp2\Palindrome\Palindrome\text1.txt");// reading from textfile
+			char[] ch = s.ToCharArray();// reversing the array
 
-			Array.Reverse(ch);
-			s2 = new string(ch);
+			Array.Reverse(ch);// reversing the array
+			s2 = new string(ch);// s2 is the new reversed string
 
-			bool b = s.Equals(s2, StringComparison.OrdinalIgnoreCase);
+			bool b = s.Equals(s2, StringComparison.OrdinalIgnoreCase);// compare two strings
 			if (b == true)
 			{
 				Console.WriteLine("YES");

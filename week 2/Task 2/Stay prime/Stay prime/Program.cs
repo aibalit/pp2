@@ -11,9 +11,9 @@ namespace Stay_prime
 	{
 		static void Main(string[] args)
 		{
-			string[] s = File.ReadAllText(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 2\input.txt").Split(' '); 
+			string[] s = File.ReadAllText(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 2\input.txt").Split(' '); // reading from textfile
 
-			int[] mas = new int[s.Length]; 
+			int[] mas = new int[s.Length]; // two strings
 			int[] mas2 = new int[s.Length];  
 
 			for (int i = 0; i < s.Length; i++)
@@ -22,7 +22,8 @@ namespace Stay_prime
 			}
 
 			int c = 0; 
-			for (int i = 0; i < s.Length; i++)
+			for (int i = 0; i < s.Length; i++)// just conditions of prime numbers
+
 			{
 				for (int j = 1; j <= mas[i]; j++)
 				{
@@ -46,9 +47,9 @@ namespace Stay_prime
 					c++;
 			}
 
-			using (FileStream fs = new FileStream(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 2\output.txt", FileMode.Create, FileAccess.Write))
+			using (FileStream fs = new FileStream(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 2\output.txt", FileMode.Create, FileAccess.Write))// creating file to output
 			{
-				using (StreamWriter wr = new StreamWriter(fs))
+				using (StreamWriter wr = new StreamWriter(fs))// writing output
 				{
 					for (int i = 0; i < s.Length; i++)
 					{

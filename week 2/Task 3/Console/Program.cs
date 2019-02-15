@@ -11,7 +11,7 @@ namespace _Console
 	{
 		public static void Draw(FileSystemInfo[] files, int index)
 		{
-			Console.BackgroundColor = ConsoleColor.DarkRed;
+			Console.BackgroundColor = ConsoleColor.DarkRed;// creating console
 			Console.Clear();
 			for (int i = 0; i < files.Length; ++i)
 			{
@@ -37,8 +37,8 @@ namespace _Console
 		}
 		static void Main(string[] args)
 		{
-			DirectoryInfo dirInfo = new DirectoryInfo(@"C:\");
-			FileSystemInfo[] files = dirInfo.GetFileSystemInfos();
+			DirectoryInfo dirInfo = new DirectoryInfo(@"C:\");// this is a way of directory which i want to read
+			FileSystemInfo[] files = dirInfo.GetFileSystemInfos();//give information
 
 			int index = 0;
 
@@ -47,7 +47,7 @@ namespace _Console
 			bool quit = false;
 			while (!quit)
 			{
-				ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();
+				ConsoleKeyInfo consoleKeyInfo = Console.ReadKey();// bindint keys
 
 				switch (consoleKeyInfo.Key)
 				{
@@ -66,7 +66,7 @@ namespace _Console
 						Draw(files, index);
 						break;
 					case ConsoleKey.Enter:
-						if (files[index].GetType() == typeof(DirectoryInfo))
+						if (files[index].GetType() == typeof(DirectoryInfo)) //checking is it a folder
 						{
 							files = (files[index] as DirectoryInfo).GetFileSystemInfos();
 							index = 0;
@@ -83,7 +83,7 @@ namespace _Console
 							while (!exit)
 							{
 								ConsoleKeyInfo consoleKeyInfo2 = Console.ReadKey();
-								if ((consoleKeyInfo2.Key == ConsoleKey.Escape) || (consoleKeyInfo2.Key == ConsoleKey.Backspace))
+								if ((consoleKeyInfo2.Key == ConsoleKey.Escape) || (consoleKeyInfo2.Key == ConsoleKey.Backspace))// waiting for escape of backspace
 								{
 									Draw(files, index);
 									exit = true;
@@ -94,13 +94,13 @@ namespace _Console
 					case ConsoleKey.Backspace:
 						if (files[0].GetType() == typeof(DirectoryInfo))
 						{
-							files = (files[0] as DirectoryInfo).Parent.Parent.GetFileSystemInfos();
+							files = (files[0] as DirectoryInfo).Parent.Parent.GetFileSystemInfos();//rewrite files from previous folder
 							index = 0;
 							Draw(files, index);
 						}
 						else
 						{
-							files = (files[0] as FileInfo).Directory.Parent.GetFileSystemInfos();
+							files = (files[0] as FileInfo).Directory.Parent.GetFileSystemInfos();// rewrite files from previous folder
 							index = 0;
 							Draw(files, index);
 						}

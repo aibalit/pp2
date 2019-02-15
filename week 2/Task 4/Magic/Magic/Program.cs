@@ -12,8 +12,8 @@ namespace Magic
 		static void Main(string[] args)
 		{
 			string fileName = "Stick.txt";
-			string sourcePath = @"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4";
-			string targetPath = @"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Magic";
+			string sourcePath = @"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4";// path of file
+			string targetPath = @"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Magic";//path of file
 
 			string sourceFile = System.IO.Path.Combine(sourcePath, fileName);
 			string destFile = System.IO.Path.Combine(targetPath, fileName);
@@ -24,7 +24,7 @@ namespace Magic
 			}
 
 
-			System.IO.File.Copy(sourceFile, destFile, true);
+			System.IO.File.Copy(sourceFile, destFile, true);//copying file
 
 
 			if (System.IO.Directory.Exists(sourcePath))
@@ -34,7 +34,7 @@ namespace Magic
 
 
 
-				foreach (string s in files)
+				foreach (string s in files)// Copy the files and overwrite destination files if they already exist
 				{
 					fileName = System.IO.Path.GetFileName(s);
 					destFile = System.IO.Path.Combine(targetPath, fileName);
@@ -46,11 +46,11 @@ namespace Magic
 			{
 				Console.WriteLine("Source path does not exist!");
 			}
-			if (System.IO.File.Exists(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Stick")) ;
+			if (System.IO.File.Exists(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Stick")) // conditing
 
 			try
 			{
-				System.IO.File.Delete(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Stick.txt");
+				System.IO.File.Delete(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Stick.txt");// deleting file if it exists
 
 			}
 			catch (System.IO.IOException e)	
