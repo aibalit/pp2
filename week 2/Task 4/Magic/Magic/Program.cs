@@ -46,7 +46,7 @@ namespace Magic
 			{
 				Console.WriteLine("Source path does not exist!");
 			}
-			if (System.IO.File.Exists(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Stick")) // conditing
+			if (System.IO.File.Exists(@"C:\Users\aibar\Desktop\c#\PP2\week 2\Task 4\Stick.txt")) // conditing
 
 			try
 			{

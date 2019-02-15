@@ -33,7 +33,7 @@ namespace Next_level_console
 			Console.ForegroundColor = ConsoleColor.White;
 			Console.WriteLine(files[index].Name);
 			Console.ForegroundColor = ConsoleColor.Green;
-			Console.WriteLine("\nWhat you want to do? \n");// options
+			Console.WriteLine("\nSelect the options \n");// options
 			Console.WriteLine("Press R to rename"); // options
 			Console.WriteLine("Press D to delete");// options
 			Console.WriteLine("Press Backspace to go back \n");// options
@@ -109,7 +109,7 @@ namespace Next_level_console
 class Options
 	{
 		public static string Path;
-		public static string Name;
+		
 
 		public static void Keys(int index, FileSystemInfo[] files)
 		{
