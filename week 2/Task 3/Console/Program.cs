@@ -11,13 +11,13 @@ namespace _Console
 	{
 		public static void Draw(FileSystemInfo[] files, int index)
 		{
-			Console.BackgroundColor = ConsoleColor.DarkRed;// creating console
+			Console.BackgroundColor = ConsoleColor.Black;// creating console
 			Console.Clear();
 			for (int i = 0; i < files.Length; ++i)
 			{
 				if (i == index)
 				{
-					Console.BackgroundColor = ConsoleColor.DarkGray;
+					Console.BackgroundColor = ConsoleColor.DarkRed;
 				}
 				else
 				{
@@ -92,18 +92,22 @@ namespace _Console
 						}
 						break;
 					case ConsoleKey.Backspace:
-						if (files[0].GetType() == typeof(DirectoryInfo))
-						{
-							files = (files[0] as DirectoryInfo).Parent.Parent.GetFileSystemInfos();//rewrite files from previous folder
-							index = 0;
-							Draw(files, index);
-						}
-						else
-						{
-							files = (files[0] as FileInfo).Directory.Parent.GetFileSystemInfos();// rewrite files from previous folder
-							index = 0;
-							Draw(files, index);
-						}
+						
+
+							if (files[0].GetType() == typeof(DirectoryInfo))
+							{
+								files = (files[0] as DirectoryInfo).Parent.Parent.GetFileSystemInfos();//rewrite files from previous folder
+								index = 0;
+								Draw(files, index);
+							}
+							else
+							{
+								files = (files[0] as FileInfo).Directory.Parent.GetFileSystemInfos();// rewrite files from previous folder
+								index = 0;
+								Draw(files, index);
+							}
+
+						 
 						break;
 					case ConsoleKey.Escape:
 						quit = true;

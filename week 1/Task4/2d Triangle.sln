@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindrome", "..\..\week 2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magic", "..\..\week 2\Task 4\Magic\Magic\Magic.csproj", "{936DA11F-6318-44D8-9641-7DE2EAAD49F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3", "..\..\week 2\Task 3\Console\Task3.csproj", "{3F2A87EE-1951-4258-B3BA-BFD55319E22D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{936DA11F-6318-44D8-9641-7DE2EAAD49F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{936DA11F-6318-44D8-9641-7DE2EAAD49F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{936DA11F-6318-44D8-9641-7DE2EAAD49F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2A87EE-1951-4258-B3BA-BFD55319E22D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2A87EE-1951-4258-B3BA-BFD55319E22D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2A87EE-1951-4258-B3BA-BFD55319E22D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2A87EE-1951-4258-B3BA-BFD55319E22D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
